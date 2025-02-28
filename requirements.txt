@@ -1,0 +1,8 @@
+pandas
+numpy
+streamlit
+scipy 
+pandas-profiling
+streamlit-pandas-profiling
+openpyxl
+xlrd
