@@ -8,7 +8,7 @@ with st.sidebar:
     upload=st.file_uploader("upload the file")
 
 if upload is not None:
-    df=pd.read_csv(upload)
+    df=pd.read_csv(upload,sep=';')
     st.dataframe(df.head())
 
 
